@@ -62,6 +62,7 @@ apps/**/dist/*
 packages/*
 packages/.gitkeep
 packages/**/dist/*
+!packages/framework
 
 # TypeScript v1 declaration files
 typings/
