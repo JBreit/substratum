@@ -1,0 +1,205 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+    // "source.sort.json": "explicit"
+  },
+
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.linkedEditing": true,
+  "editor.tabSize": 2,
+
+  "eslint.format.enable": true,
+  "eslint.run": "onType",
+  "eslint.useFlatConfig": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+  "eslint.workingDirectories": [
+    { "mode": "auto" }
+    // {
+    //   "directory": "./package_name",
+    //   "changeProcessCWD": true
+    // }
+  ],
+
+  "explorer.confirmDelete": false,
+
+  "dotenv.enableAutocloaking": false,
+
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": false
+  },
+
+  "files.trimTrailingWhitespace": true,
+
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.repositoryScanMaxDepth": -1,
+
+  "gitlens.graph.layout": "editor",
+  "gitlens.graph.minimap.additionalTypes": [
+    "stashes",
+    "localBranches"
+  ],
+  "gitlens.graph.minimap.enabled": false,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "json.schemaDownload.enable": false,
+
+  "prettier.configPath": "./prettier.config.js",
+  "prettier.endOfLine": "auto",
+
+  "search.exclude": {
+    "**/node_modules": true
+  },
+
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "window.zoomLevel": 1,
+
+  "workbench.colorTheme": "One Candy",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none",
+
+  "vsicons.customIconFolderPath": "C:\\Users\\%username%\\AppData\\Roaming\\Code\\User\\vsicons-custom-icons",
+
+  "vsicons.associations.files": [
+    {
+      "extensions": [".adapter.cjs", ".adapter.js", ".adapter.ts"],
+      "format": "svg",
+      "icon": "commitizen"
+    },
+    {
+      "extensions": [
+        ".env.development",
+        ".env.development.local",
+        ".env.example",
+        ".env.local",
+        ".env.test",
+        ".env"
+      ],
+      "format": "svg",
+      "icon": "config"
+    },
+    {
+      "extensions": [".css"],
+      "filename": false,
+      "format": "svg",
+      "icon": "css"
+    },
+    {
+      "extensions": ["controller.ts", "routes.ts", "service.ts"],
+      "format": "svg",
+      "icon": "typescript"
+    },
+    {
+      "filename": true,
+      "extensions": [
+        "applypatch-msg",
+        "commit-msg",
+        "post-applypatch",
+        "post-checkout",
+        "post-commit",
+        "post-merge",
+        "post-rewrite",
+        "pre-applypatch",
+        "pre-auto-gc",
+        "pre-commit",
+        "pre-push",
+        "pre-rebase",
+        "prepare-commit-msg"
+      ],
+      "format": "svg",
+      "icon": "husky"
+    },
+    {
+      "filename": true,
+      "filenamesGlob": [
+        "extensions",
+        "launch",
+        "settings",
+        "sftp",
+        "tasks",
+        "vscodeignore"
+      ],
+      "format": "svg",
+      "extensionsGlob": ["json"],
+      "icon": "vscode"
+    }
+  ],
+
+  "vsicons.associations.folders": [
+    {
+      "extensions": ["repl"],
+      "format": "svg",
+      "icon": "cli"
+    },
+    {
+      "extensions": ["core"],
+      "format": "svg",
+      "icon": "app"
+    },
+    {
+      "extensions": [".lighthouseci"],
+      "format": "svg",
+      "icon": "lighthouse-ci"
+    }
+  ],
+
+  "vsicons.projectDetection.autoReload": true,
+  "vsicons.projectDetection.disableDetect": false,
+
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path-windows": "C:\\Users\\jason\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+    "vscode-kubernetes.kubectl-path-windows": "C:\\Users\\jason\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+    "vscode-kubernetes.helm-path-windows": "C:\\Users\\jason\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vs-kubernetes.minikube-show-information-expiration": "2024-11-27T00:42:13.702Z"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    // "editor.codeActionsOnSave": {
+    //   "source.fixAll.eslint": "explicit"
+    // },
+    "editor.formatOnSave": true
+  },
+
+  "[javascript][typescript]": {
+    // "editor.codeActionsOnSave": {
+    //   "source.fixAll.eslint": "explicit"
+    // }
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
+  },
+
+  "[python]": {
+    "editor.formatOnType": true
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "editor.codeActionsOnSave": {
+    //   "source.fixAll.eslint": "explicit",
+    // },
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "git.ignoreLimitWarning": true,
+  "javascript.preferences.quoteStyle": "single"
+}
