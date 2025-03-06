@@ -65,9 +65,9 @@
     "**/*.spec.tsx",
     "jest.config.ts"
   ],
-  // "references": [
-  //   { "path": "./packages/framework" }
-  // ],
+  "references": [
+    { "path": "./packages/framework" }
+  ],
   "ts-node": {
     "require": ["tsconfig-paths/register"]
   }
