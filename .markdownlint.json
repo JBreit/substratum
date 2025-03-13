@@ -1,0 +1,7 @@
+{
+  "default": true,
+  "MD001": false,
+  "MD003": { "style": "atx" },
+  "MD004": { "style": "consistent" },
+  "MD013": { "code_blocks": false }
+}
