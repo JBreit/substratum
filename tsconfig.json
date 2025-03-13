@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_version": "21.0.0",
+  "compilerOptions": {
+    /* Projects */
+    "incremental": true,
+    "composite": true,
+    "tsBuildInfoFile": ".tsbuildinfo",
+
+    /* Language and Environment */
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    /* Modules */
+    "module": "Node16",
+    "rootDir": "./src",
+    "moduleResolution": "Node16",
+    "baseUrl": "./",
+    "paths": {
+      "*": ["node_modules/*", "src/@types"],
+      "@/*": ["src/*"]
+    },
+    "rootDirs": [],
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/**/**/typings",
+      "packages/**/src/@types",
+      "src/@types"
+    ],
+    "types": ["express", "node", "jest"],
+    "resolveJsonModule": true,
+
+    /* Emit */
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "declarationDir": "dist/@types",
+
+    /* Interop Constraints */
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "strictNullChecks": true,
+    "useUnknownInCatchVariables": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  },
+  "include": ["**/*.ts", "**/*.tsx", "prettier.config.js"],
+  "exclude": [
+    "./apps",
+    "**/bin",
+    "**/dist",
+    "**/packages",
+    "**/node_modules",
+    "**/scripts",
+    "!**/node_modules/@types",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "jest.config.ts"
+  ],
+  // "references": [
+  //   { "path": "./apps/substratum/server" },
+  //   { "path": "./packages/framework" }
+  // ],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}
