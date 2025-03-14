@@ -55,6 +55,8 @@ certs/*
 records/
 temp/*
 
+.husky/prepare-commit-msg
+
 apps/*
 !apps/.gitkeep
 apps/**/dist/*
@@ -71,6 +73,7 @@ packages/framework
 # packages/framework/src/Infrastructure/Web/Express/Server.ts
 
 # TypeScript v1 declaration files
+typescript/
 typings/
 
 # TypeScript cache
