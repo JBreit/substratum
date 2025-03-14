@@ -11,7 +11,7 @@
     "url": "https://github.com/JBreit/substratum/issues"
   },
   "type": "module",
-  "main": "./apps/substratum/server/start.ts",
+  "main": "./src/apps/substratum/server/start.ts",
   "directories": {
     "doc": "docs",
     "test": "tests"
@@ -45,8 +45,7 @@
   },
   "workspaces": [
     "apps/*",
-    "packages/*",
-    "apps/substratum/server"
+    "packages/*"
   ],
   "author": "Jason Breitigan <jason.breitigan@gmail.com>",
   "license": "MIT",
